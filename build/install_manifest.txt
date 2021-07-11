@@ -1,0 +1,7 @@
+/usr/local/lib/libcaep.a
+/usr/local/include/caep/caep.h
+/usr/local/include/caep/config/config.h
+/usr/local/include/caep/config/config_interface.h
+/usr/local/include/caep/exception/illegal_argument_exception.h
+/usr/local/include/caep/exception/io_exception.h
+/usr/local/include/caep/util/util.h

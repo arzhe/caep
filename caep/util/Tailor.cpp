@@ -14,6 +14,7 @@ std::string& LTailor(std::string& str, const std::string& tail) {
 
 std::string& RTailor(std::string& str, const std::string& tail) {
     str.erase(str.find_last_not_of(tail) + 1);
+    return str;
 }
 
 std::string& Tailor(std::string& str, const std::string& tail) {
