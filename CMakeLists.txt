@@ -1,19 +1,32 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(caep_lib)
+project(caep
+        VERSION 1.0.0
+        DESCRIPTION "Access Control Library for supporting access control models, eg: ACL, RBAC, etc"
+        HOMEPAGE_URL https://github.com/arzhe/caep
+        LANGUAGES CXX C
+        )
 
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_STANDARD 11)
 
-file(GLOB_RECURSE SRC_FILES "*.cpp")
+if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
+    message(FATAL_ERROR
+            "In-source build is not allowed. Please create a new sub-directory and run CMake from there."
+            )
+endif()
 
-add_library(caep ${SRC_FILES})
 
-include_directories(${CMAKE_SOURCE_DIR}/caep)
+option(CAEP_BUILD_TEST "Option to build test" OFF)
 
-install(TARGETS caep
-        DESTINATION ${CMAKE_INSTALL_LIBDIR})
+# Do not print install message
+if(NOT DEFINED CMAKE_INSTALL_MESSAGE)
+    set(CMAKE_INSTALL_MESSAGE "ALWAYS")
+endif()
 
-install(DIRECTORY ${CMAKE_SOURCE_DIR}/caep 
-        DESTINATION include 
-        FILES_MATCHING PATTERN "*.h")
+if(CAEP_BUILD_TEST)
+    enable_testing()
+endif()
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(caep)
+add_subdirectory(test)

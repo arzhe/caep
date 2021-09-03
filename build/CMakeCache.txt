@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Option to build test
+CAEP_BUILD_TEST:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -140,13 +143,28 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
-CMAKE_PROJECT_DESCRIPTION:STATIC=
+CMAKE_PROJECT_DESCRIPTION:STATIC=Access Control Library for supporting access control models, eg: ACL, RBAC, etc
 
 //Value Computed by CMake
-CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
+CMAKE_PROJECT_HOMEPAGE_URL:STATIC=https://github.com/arzhe/caep
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=caep_lib
+CMAKE_PROJECT_NAME:STATIC=caep
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=1.0.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
@@ -211,10 +229,10 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-caep_lib_BINARY_DIR:STATIC=/Users/GNZ/code/GitRepositories/MyGit/caep/build
+caep_BINARY_DIR:STATIC=/Users/GNZ/code/GitRepositories/MyGit/caep/build
 
 //Value Computed by CMake
-caep_lib_SOURCE_DIR:STATIC=/Users/GNZ/code/GitRepositories/MyGit/caep
+caep_SOURCE_DIR:STATIC=/Users/GNZ/code/GitRepositories/MyGit/caep
 
 
 ########################
@@ -313,7 +331,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

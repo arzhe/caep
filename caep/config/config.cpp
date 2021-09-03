@@ -16,7 +16,7 @@ const std::string Config::DEFAULT_SECTION = "default";
 
 std::mutex Config::mtx_lock;
 
-bool Config::AddConfigData(std::string section, std::string key, std::string value) {
+bool Config::AddConfig(std::string section, std::string key, std::string value) {
     if(!section.compare(""))
         section = DEFAULT_SECTION;
 
@@ -70,7 +70,7 @@ void Config::ParseBuffer(std::istream* buffer) {
             }
             std::string key = Tailor(key_val[0]);
             std::string value = Tailor(key_val[1]);
-            AddConfigData(section, key, value);
+            AddConfig(section, key, value);
         }
     }
 }
@@ -88,9 +88,71 @@ std::shared_ptr<Config> Config::NewConfigFromText(std::string text) {
     return c;
 }
 
-std::string Config::GetConfigValue(std::string section, std::string key) {
-    if(!section.compare(""))
+bool Config::GetBool(std::string sec_key) {
+    return Get(sec_key).compare("true") == 0;
+}
+
+int Config::GetInt(std::string sec_key) {
+    return atoi(Get(sec_key).c_str());
+}
+
+float Config::GetFloat(std::string sec_key) {
+    return float(atof(Get(sec_key).c_str()));
+}
+
+std::string Config::GetString(std::string sec_key) {
+    return Get(sec_key);
+}
+
+std::vector<std::string> Config:: GetStrings(std::string sec_key) {
+    auto s = Get(sec_key);
+    if(!s.compare("")) 
+        return std::vector<std::string>();
+    auto vs = Split(s, std::string(","));
+    for(auto& avs : vs)
+        avs = Tailor(avs);
+    return vs;
+}
+
+void Config::Set(std::string sec_key, std::string value) {
+    mtx_lock.lock();
+    if(sec_key.length() == 0) {
+        mtx_lock.unlock();
+        throw IllegalArgumentException("sec_key is empty");
+    }
+
+    std::string section;
+    std::string key;
+
+    transform(sec_key.begin(), sec_key.end(), sec_key.begin(), ::tolower);
+    auto sec_keys = Split(sec_key, std::string("::"));
+    if(sec_keys.size() >= 2) {
+        section = sec_keys[0];
+        key = sec_keys[1];
+    }
+    else { 
+        section = "";
+        key = sec_keys[0];
+    }
+    AddConfig(section, key, value);
+    mtx_lock.unlock();
+}
+
+std::string Config::Get(std::string sec_key) {
+    std::string section;
+    std::string key;
+
+    transform(sec_key.begin(), sec_key.end(), sec_key.begin(), ::tolower);
+    auto sec_keys = Split(sec_key, std::string("::"));
+    if(sec_keys.size() >= 2) {
+        section = sec_keys[0];
+        key = sec_keys[1];
+    }
+    else {
         section = DEFAULT_SECTION;
+        key = sec_keys[0];
+    }
+
     bool found = data.find(section) != data.end() && data[section].find(key) != data[section].end();
     if(found)
         return data[section][key];

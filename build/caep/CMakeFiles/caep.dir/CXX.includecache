@@ -6,8 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles/3.19.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp
-
 /Users/GNZ/code/GitRepositories/MyGit/caep/caep/config/config.cpp
 fstream
 -
@@ -44,6 +42,36 @@ stdexcept
 
 /Users/GNZ/code/GitRepositories/MyGit/caep/caep/exception/io_exception.h
 stdexcept
+-
+
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/exception/rbac_exception.h
+stdexcept
+-
+
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/exception/weak_ptr_exception.h
+stdexcept
+-
+
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/default_role_manager.cpp
+./default_role_manager.h
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/default_role_manager.h
+../exception/rbac_exception.h
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/exception/rbac_exception.h
+../exception/weak_ptr_exception.h
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/exception/weak_ptr_exception.h
+
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/default_role_manager.h
+unordered_map
+-
+iostream
+-
+./role_manager.h
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/role_manager.h
+
+/Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/role_manager.h
+string
+-
+vector
 -
 
 /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/EndWith.cpp

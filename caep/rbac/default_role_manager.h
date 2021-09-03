@@ -2,29 +2,36 @@
 #define CAEP_DEFAULT_ROLE_MANAGER_H
 
 #include <unordered_map>
+#include <iostream>
 
 #include "./role_manager.h"
 
 namespace caep {
 
+class Role;
+typedef std::shared_ptr<Role> SRptr;
+typedef std::weak_ptr<Role> WRptr;
+
 using MatchingFunc = bool (*)(std::string, std::string);
 
 class Role {
 private:
-    std::vector<Role*> roles;
-    
-public:
     std::string name;
 
-    static Role* NewRole(std::string name);
+    std::vector<WRptr> roles;
+public:
+    
+    explicit Role(std::string name) : name(name) {};    
 
-    void AddRole(Role* role);
+    static SRptr NewRole(std::string name);
 
-    void DeleteRole(Role* role);
+    void AddRole(WRptr role);
+
+    void DeleteRole(WRptr role);
 
     bool HasRole(std::string name, int hierarchy_level);
-
-    bool HadDirect(std::string name);
+    
+    bool HasDirectRole(std::string name);
 
     std::string ToString();
 
@@ -33,17 +40,15 @@ public:
 
 class DefaultRoleManager : public RoleManager {
 private:
-    std::unordered_map<std::string, Role*> all_roles;
+    std::unordered_map<std::string, SRptr> all_roles;
     bool has_pattern;
-    // the maximized allowd RBAC hirarchy level.
-    int max_hierarchy_level;
     MatchingFunc mf;
-
+    int max_hierarchy_level;
     // determine whether there is a role named "name" in all_roles. 
     bool HasRole(std::string name);
 
     // create a new role or return an existing role depending on whether the role is in manager.
-    Role* CreateRole(std::string name);
+    SRptr CreateRole(std::string name);
 
 public:
     /*
@@ -71,8 +76,12 @@ public:
 
     bool HasLink(std::string name1, std::string name2);
 
+    // name is User's name.
+    // According to the User_name, GetRoles finds roles a user inherits.
     std::vector<std::string> GetRoles(std::string name);
 
+    // name is Role's name.
+    // According to the Role_name, GetUsers finds users a role owns.
     std::vector<std::string> GetUsers(std::string name);
 
     void PrintRoles();

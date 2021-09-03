@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libcaep.a CMakeFiles/caep.dir/config/config.cpp.o CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o CMakeFiles/caep.dir/util/EndWith.cpp.o CMakeFiles/caep.dir/util/Split.cpp.o CMakeFiles/caep.dir/util/Tailor.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libcaep.a

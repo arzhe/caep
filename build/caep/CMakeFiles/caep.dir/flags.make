@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/GNZ/code/GitRepositories/MyGit/caep/caep
 
-CXX_FLAGS = -std=gnu++11
+CXX_FLAGS = -std=gnu++1z
 

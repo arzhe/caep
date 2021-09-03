@@ -4,4 +4,9 @@
 /usr/local/include/caep/config/config_interface.h
 /usr/local/include/caep/exception/illegal_argument_exception.h
 /usr/local/include/caep/exception/io_exception.h
+/usr/local/include/caep/exception/rbac_exception.h
+/usr/local/include/caep/exception/weak_ptr_exception.h
+/usr/local/include/caep/model/model.h
+/usr/local/include/caep/rbac/default_role_manager.h
+/usr/local/include/caep/rbac/role_manager.h
 /usr/local/include/caep/util/util.h

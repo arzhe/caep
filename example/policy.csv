@@ -1,6 +1,6 @@
-applicability, Alice, read, data1
-applicability, Bob, write, data2
+a, Alice, read, data1
+a, Bob, write, data2
 
-role, Alice, admin
-role, Bob, Alice
+r, Alice, admin
+r, Bob, Alice
 
