@@ -15,7 +15,7 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 endif()
 
 
-option(CAEP_BUILD_TEST "Option to build test" OFF)
+option(CAEP_BUILD_TEST "Option to build test" ON)
 
 # Do not print install message
 if(NOT DEFINED CMAKE_INSTALL_MESSAGE)

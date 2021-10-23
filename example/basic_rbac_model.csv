@@ -1,0 +1,8 @@
+a, Alice, data1, read
+a, Bob, data2, read
+a, admin, data1, write
+a, admin, data2, write
+
+r, Alice, admin
+
+m, on, on

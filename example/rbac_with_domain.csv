@@ -1,0 +1,9 @@
+a, Alice, data1, read, domain1
+a, Bob, data2, read, domain2
+a, admin, data1, write, domain1
+a, admin, data2, write, domain2
+
+r, Alice, admin, domain1
+r, Bob, admin, domain2
+
+m, on, on

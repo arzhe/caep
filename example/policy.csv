@@ -1,6 +1,0 @@
-a, Alice, read, data1
-a, Bob, write, data2
-
-r, Alice, admin
-r, Bob, Alice
-

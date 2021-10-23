@@ -15,7 +15,7 @@
 ########################
 
 //Option to build test
-CAEP_BUILD_TEST:BOOL=OFF
+CAEP_BUILD_TEST:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND

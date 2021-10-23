@@ -76,9 +76,139 @@ include caep/CMakeFiles/caep.dir/progress.make
 # Include the compile flags for this target's objects.
 include caep/CMakeFiles/caep.dir/flags.make
 
+caep/CMakeFiles/caep.dir/adapter/adapter.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/adapter/adapter.cpp.o: ../caep/adapter/adapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object caep/CMakeFiles/caep.dir/adapter/adapter.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/adapter/adapter.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/adapter.cpp
+
+caep/CMakeFiles/caep.dir/adapter/adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/adapter/adapter.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/adapter.cpp > CMakeFiles/caep.dir/adapter/adapter.cpp.i
+
+caep/CMakeFiles/caep.dir/adapter/adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/adapter/adapter.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/adapter.cpp -o CMakeFiles/caep.dir/adapter/adapter.cpp.s
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o: ../caep/adapter/file_adapter/batch_file_adapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/batch_file_adapter.cpp
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/batch_file_adapter.cpp > CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.i
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/batch_file_adapter.cpp -o CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.s
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o: ../caep/adapter/file_adapter/file_adapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/file_adapter.cpp
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/file_adapter.cpp > CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.i
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/file_adapter.cpp -o CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.s
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o: ../caep/adapter/file_adapter/filtered_file_adapter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/filtered_file_adapter.cpp
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/filtered_file_adapter.cpp > CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.i
+
+caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/adapter/file_adapter/filtered_file_adapter.cpp -o CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/caeper.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/caeper.cpp.o: ../caep/caep/caeper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object caep/CMakeFiles/caep.dir/caep/caeper.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/caeper.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/caeper.cpp
+
+caep/CMakeFiles/caep.dir/caep/caeper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/caeper.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/caeper.cpp > CMakeFiles/caep.dir/caep/caeper.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/caeper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/caeper.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/caeper.cpp -o CMakeFiles/caep.dir/caep/caeper.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/internal_api.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/internal_api.cpp.o: ../caep/caep/internal_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object caep/CMakeFiles/caep.dir/caep/internal_api.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/internal_api.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/internal_api.cpp
+
+caep/CMakeFiles/caep.dir/caep/internal_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/internal_api.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/internal_api.cpp > CMakeFiles/caep.dir/caep/internal_api.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/internal_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/internal_api.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/internal_api.cpp -o CMakeFiles/caep.dir/caep/internal_api.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/logger.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/logger.cpp.o: ../caep/caep/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object caep/CMakeFiles/caep.dir/caep/logger.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/logger.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/logger.cpp
+
+caep/CMakeFiles/caep.dir/caep/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/logger.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/logger.cpp > CMakeFiles/caep.dir/caep/logger.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/logger.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/logger.cpp -o CMakeFiles/caep.dir/caep/logger.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/management_api.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/management_api.cpp.o: ../caep/caep/management_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object caep/CMakeFiles/caep.dir/caep/management_api.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/management_api.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/management_api.cpp
+
+caep/CMakeFiles/caep.dir/caep/management_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/management_api.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/management_api.cpp > CMakeFiles/caep.dir/caep/management_api.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/management_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/management_api.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/management_api.cpp -o CMakeFiles/caep.dir/caep/management_api.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.o: ../caep/caep/rbac_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/rbac_api.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api.cpp
+
+caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/rbac_api.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api.cpp > CMakeFiles/caep.dir/caep/rbac_api.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/rbac_api.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api.cpp -o CMakeFiles/caep.dir/caep/rbac_api.cpp.s
+
+caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o: ../caep/caep/rbac_api_with_domain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api_with_domain.cpp
+
+caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api_with_domain.cpp > CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.i
+
+caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/caep/rbac_api_with_domain.cpp -o CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.s
+
 caep/CMakeFiles/caep.dir/config/config.cpp.o: caep/CMakeFiles/caep.dir/flags.make
 caep/CMakeFiles/caep.dir/config/config.cpp.o: ../caep/config/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object caep/CMakeFiles/caep.dir/config/config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object caep/CMakeFiles/caep.dir/config/config.cpp.o"
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/config/config.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/config/config.cpp
 
 caep/CMakeFiles/caep.dir/config/config.cpp.i: cmake_force
@@ -89,9 +219,230 @@ caep/CMakeFiles/caep.dir/config/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/config/config.cpp.s"
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/config/config.cpp -o CMakeFiles/caep.dir/config/config.cpp.s
 
+caep/CMakeFiles/caep.dir/effect/default_effector.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/effect/default_effector.cpp.o: ../caep/effect/default_effector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object caep/CMakeFiles/caep.dir/effect/default_effector.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/effect/default_effector.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/effect/default_effector.cpp
+
+caep/CMakeFiles/caep.dir/effect/default_effector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/effect/default_effector.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/effect/default_effector.cpp > CMakeFiles/caep.dir/effect/default_effector.cpp.i
+
+caep/CMakeFiles/caep.dir/effect/default_effector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/effect/default_effector.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/effect/default_effector.cpp -o CMakeFiles/caep.dir/effect/default_effector.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o: ../caep/ip_parser/exception/parser_exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/exception/parser_exception.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/exception/parser_exception.cpp > CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/exception/parser_exception.cpp -o CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o: ../caep/ip_parser/parser/CIDRMask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/CIDRMask.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/CIDRMask.cpp > CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/CIDRMask.cpp -o CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o: ../caep/ip_parser/parser/IP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IP.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IP.cpp > CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IP.cpp -o CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o: ../caep/ip_parser/parser/IPNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPNet.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPNet.cpp > CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPNet.cpp -o CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o: ../caep/ip_parser/parser/IPv4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPv4.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPv4.cpp > CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/IPv4.cpp -o CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o: ../caep/ip_parser/parser/allFF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/allFF.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/allFF.cpp > CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/allFF.cpp -o CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o: ../caep/ip_parser/parser/dtoi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/dtoi.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/dtoi.cpp > CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/dtoi.cpp -o CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o: ../caep/ip_parser/parser/equal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/equal.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/equal.cpp > CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/equal.cpp -o CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o: ../caep/ip_parser/parser/parseCIDR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseCIDR.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseCIDR.cpp > CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseCIDR.cpp -o CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o: ../caep/ip_parser/parser/parseIP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIP.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIP.cpp > CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIP.cpp -o CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o: ../caep/ip_parser/parser/parseIPv4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv4.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv4.cpp > CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv4.cpp -o CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o: ../caep/ip_parser/parser/parseIPv6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv6.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv6.cpp > CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/parseIPv6.cpp -o CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.s
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o: ../caep/ip_parser/parser/xtoi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/xtoi.cpp
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/xtoi.cpp > CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.i
+
+caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/ip_parser/parser/xtoi.cpp -o CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.s
+
+caep/CMakeFiles/caep.dir/model/matcher.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/model/matcher.cpp.o: ../caep/model/matcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object caep/CMakeFiles/caep.dir/model/matcher.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/model/matcher.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/matcher.cpp
+
+caep/CMakeFiles/caep.dir/model/matcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/model/matcher.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/matcher.cpp > CMakeFiles/caep.dir/model/matcher.cpp.i
+
+caep/CMakeFiles/caep.dir/model/matcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/model/matcher.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/matcher.cpp -o CMakeFiles/caep.dir/model/matcher.cpp.s
+
+caep/CMakeFiles/caep.dir/model/model.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/model/model.cpp.o: ../caep/model/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object caep/CMakeFiles/caep.dir/model/model.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/model/model.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/model.cpp
+
+caep/CMakeFiles/caep.dir/model/model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/model/model.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/model.cpp > CMakeFiles/caep.dir/model/model.cpp.i
+
+caep/CMakeFiles/caep.dir/model/model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/model/model.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/model.cpp -o CMakeFiles/caep.dir/model/model.cpp.s
+
+caep/CMakeFiles/caep.dir/model/section.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/model/section.cpp.o: ../caep/model/section.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object caep/CMakeFiles/caep.dir/model/section.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/model/section.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/section.cpp
+
+caep/CMakeFiles/caep.dir/model/section.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/model/section.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/section.cpp > CMakeFiles/caep.dir/model/section.cpp.i
+
+caep/CMakeFiles/caep.dir/model/section.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/model/section.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/model/section.cpp -o CMakeFiles/caep.dir/model/section.cpp.s
+
 caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o: caep/CMakeFiles/caep.dir/flags.make
 caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o: ../caep/rbac/default_role_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o"
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/default_role_manager.cpp
 
 caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.i: cmake_force
@@ -102,64 +453,103 @@ caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/rbac/default_role_manager.cpp.s"
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/rbac/default_role_manager.cpp -o CMakeFiles/caep.dir/rbac/default_role_manager.cpp.s
 
-caep/CMakeFiles/caep.dir/util/EndWith.cpp.o: caep/CMakeFiles/caep.dir/flags.make
-caep/CMakeFiles/caep.dir/util/EndWith.cpp.o: ../caep/util/EndWith.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object caep/CMakeFiles/caep.dir/util/EndWith.cpp.o"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/util/EndWith.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/EndWith.cpp
+caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.o: ../caep/util/built_in_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/util/built_in_functions.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/built_in_functions.cpp
 
-caep/CMakeFiles/caep.dir/util/EndWith.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/util/EndWith.cpp.i"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/EndWith.cpp > CMakeFiles/caep.dir/util/EndWith.cpp.i
+caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/util/built_in_functions.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/built_in_functions.cpp > CMakeFiles/caep.dir/util/built_in_functions.cpp.i
 
-caep/CMakeFiles/caep.dir/util/EndWith.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/util/EndWith.cpp.s"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/EndWith.cpp -o CMakeFiles/caep.dir/util/EndWith.cpp.s
+caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/util/built_in_functions.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/built_in_functions.cpp -o CMakeFiles/caep.dir/util/built_in_functions.cpp.s
 
-caep/CMakeFiles/caep.dir/util/Split.cpp.o: caep/CMakeFiles/caep.dir/flags.make
-caep/CMakeFiles/caep.dir/util/Split.cpp.o: ../caep/util/Split.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object caep/CMakeFiles/caep.dir/util/Split.cpp.o"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/util/Split.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Split.cpp
+caep/CMakeFiles/caep.dir/util/caep_util.cpp.o: caep/CMakeFiles/caep.dir/flags.make
+caep/CMakeFiles/caep.dir/util/caep_util.cpp.o: ../caep/util/caep_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object caep/CMakeFiles/caep.dir/util/caep_util.cpp.o"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/util/caep_util.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/caep_util.cpp
 
-caep/CMakeFiles/caep.dir/util/Split.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/util/Split.cpp.i"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Split.cpp > CMakeFiles/caep.dir/util/Split.cpp.i
+caep/CMakeFiles/caep.dir/util/caep_util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/util/caep_util.cpp.i"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/caep_util.cpp > CMakeFiles/caep.dir/util/caep_util.cpp.i
 
-caep/CMakeFiles/caep.dir/util/Split.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/util/Split.cpp.s"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Split.cpp -o CMakeFiles/caep.dir/util/Split.cpp.s
-
-caep/CMakeFiles/caep.dir/util/Tailor.cpp.o: caep/CMakeFiles/caep.dir/flags.make
-caep/CMakeFiles/caep.dir/util/Tailor.cpp.o: ../caep/util/Tailor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object caep/CMakeFiles/caep.dir/util/Tailor.cpp.o"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caep.dir/util/Tailor.cpp.o -c /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Tailor.cpp
-
-caep/CMakeFiles/caep.dir/util/Tailor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caep.dir/util/Tailor.cpp.i"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Tailor.cpp > CMakeFiles/caep.dir/util/Tailor.cpp.i
-
-caep/CMakeFiles/caep.dir/util/Tailor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/util/Tailor.cpp.s"
-	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/Tailor.cpp -o CMakeFiles/caep.dir/util/Tailor.cpp.s
+caep/CMakeFiles/caep.dir/util/caep_util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caep.dir/util/caep_util.cpp.s"
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/GNZ/code/GitRepositories/MyGit/caep/caep/util/caep_util.cpp -o CMakeFiles/caep.dir/util/caep_util.cpp.s
 
 # Object files for target caep
 caep_OBJECTS = \
+"CMakeFiles/caep.dir/adapter/adapter.cpp.o" \
+"CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o" \
+"CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o" \
+"CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o" \
+"CMakeFiles/caep.dir/caep/caeper.cpp.o" \
+"CMakeFiles/caep.dir/caep/internal_api.cpp.o" \
+"CMakeFiles/caep.dir/caep/logger.cpp.o" \
+"CMakeFiles/caep.dir/caep/management_api.cpp.o" \
+"CMakeFiles/caep.dir/caep/rbac_api.cpp.o" \
+"CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o" \
 "CMakeFiles/caep.dir/config/config.cpp.o" \
+"CMakeFiles/caep.dir/effect/default_effector.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o" \
+"CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o" \
+"CMakeFiles/caep.dir/model/matcher.cpp.o" \
+"CMakeFiles/caep.dir/model/model.cpp.o" \
+"CMakeFiles/caep.dir/model/section.cpp.o" \
 "CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o" \
-"CMakeFiles/caep.dir/util/EndWith.cpp.o" \
-"CMakeFiles/caep.dir/util/Split.cpp.o" \
-"CMakeFiles/caep.dir/util/Tailor.cpp.o"
+"CMakeFiles/caep.dir/util/built_in_functions.cpp.o" \
+"CMakeFiles/caep.dir/util/caep_util.cpp.o"
 
 # External object files for target caep
 caep_EXTERNAL_OBJECTS =
 
+caep/libcaep.a: caep/CMakeFiles/caep.dir/adapter/adapter.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/adapter/file_adapter/batch_file_adapter.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/adapter/file_adapter/file_adapter.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/adapter/file_adapter/filtered_file_adapter.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/caeper.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/internal_api.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/logger.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/management_api.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/rbac_api.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/caep/rbac_api_with_domain.cpp.o
 caep/libcaep.a: caep/CMakeFiles/caep.dir/config/config.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/effect/default_effector.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/exception/parser_exception.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/CIDRMask.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/IP.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/IPNet.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/IPv4.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/allFF.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/dtoi.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/equal.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/parseCIDR.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/parseIP.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv4.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/parseIPv6.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/ip_parser/parser/xtoi.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/model/matcher.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/model/model.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/model/section.cpp.o
 caep/libcaep.a: caep/CMakeFiles/caep.dir/rbac/default_role_manager.cpp.o
-caep/libcaep.a: caep/CMakeFiles/caep.dir/util/EndWith.cpp.o
-caep/libcaep.a: caep/CMakeFiles/caep.dir/util/Split.cpp.o
-caep/libcaep.a: caep/CMakeFiles/caep.dir/util/Tailor.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/util/built_in_functions.cpp.o
+caep/libcaep.a: caep/CMakeFiles/caep.dir/util/caep_util.cpp.o
 caep/libcaep.a: caep/CMakeFiles/caep.dir/build.make
 caep/libcaep.a: caep/CMakeFiles/caep.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcaep.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libcaep.a"
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && $(CMAKE_COMMAND) -P CMakeFiles/caep.dir/cmake_clean_target.cmake
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build/caep && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caep.dir/link.txt --verbose=$(VERBOSE)
 

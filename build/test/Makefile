@@ -75,18 +75,6 @@ CMAKE_BINARY_DIR = /Users/GNZ/code/GitRepositories/MyGit/caep/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -143,6 +131,29 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CMake.app/Contents/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/Applications/CMake.app/Contents/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/GNZ/code/GitRepositories/MyGit/caep/build/CMakeFiles /Users/GNZ/code/GitRepositories/MyGit/caep/build/test//CMakeFiles/progress.marks
@@ -175,6 +186,210 @@ depend:
 	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+test/CMakeFiles/caepgtest.dir/rule:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/caepgtest.dir/rule
+.PHONY : test/CMakeFiles/caepgtest.dir/rule
+
+# Convenience name for target.
+caepgtest: test/CMakeFiles/caepgtest.dir/rule
+
+.PHONY : caepgtest
+
+# fast build rule for target.
+caepgtest/fast:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/build
+.PHONY : caepgtest/fast
+
+adapter_test.o: adapter_test.cpp.o
+
+.PHONY : adapter_test.o
+
+# target to build an object file
+adapter_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/adapter_test.cpp.o
+.PHONY : adapter_test.cpp.o
+
+adapter_test.i: adapter_test.cpp.i
+
+.PHONY : adapter_test.i
+
+# target to preprocess a source file
+adapter_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/adapter_test.cpp.i
+.PHONY : adapter_test.cpp.i
+
+adapter_test.s: adapter_test.cpp.s
+
+.PHONY : adapter_test.s
+
+# target to generate assembly for a file
+adapter_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/adapter_test.cpp.s
+.PHONY : adapter_test.cpp.s
+
+caeper_test.o: caeper_test.cpp.o
+
+.PHONY : caeper_test.o
+
+# target to build an object file
+caeper_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/caeper_test.cpp.o
+.PHONY : caeper_test.cpp.o
+
+caeper_test.i: caeper_test.cpp.i
+
+.PHONY : caeper_test.i
+
+# target to preprocess a source file
+caeper_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/caeper_test.cpp.i
+.PHONY : caeper_test.cpp.i
+
+caeper_test.s: caeper_test.cpp.s
+
+.PHONY : caeper_test.s
+
+# target to generate assembly for a file
+caeper_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/caeper_test.cpp.s
+.PHONY : caeper_test.cpp.s
+
+config_test.o: config_test.cpp.o
+
+.PHONY : config_test.o
+
+# target to build an object file
+config_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/config_test.cpp.o
+.PHONY : config_test.cpp.o
+
+config_test.i: config_test.cpp.i
+
+.PHONY : config_test.i
+
+# target to preprocess a source file
+config_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/config_test.cpp.i
+.PHONY : config_test.cpp.i
+
+config_test.s: config_test.cpp.s
+
+.PHONY : config_test.s
+
+# target to generate assembly for a file
+config_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/config_test.cpp.s
+.PHONY : config_test.cpp.s
+
+matcher_test.o: matcher_test.cpp.o
+
+.PHONY : matcher_test.o
+
+# target to build an object file
+matcher_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/matcher_test.cpp.o
+.PHONY : matcher_test.cpp.o
+
+matcher_test.i: matcher_test.cpp.i
+
+.PHONY : matcher_test.i
+
+# target to preprocess a source file
+matcher_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/matcher_test.cpp.i
+.PHONY : matcher_test.cpp.i
+
+matcher_test.s: matcher_test.cpp.s
+
+.PHONY : matcher_test.s
+
+# target to generate assembly for a file
+matcher_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/matcher_test.cpp.s
+.PHONY : matcher_test.cpp.s
+
+model_test.o: model_test.cpp.o
+
+.PHONY : model_test.o
+
+# target to build an object file
+model_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/model_test.cpp.o
+.PHONY : model_test.cpp.o
+
+model_test.i: model_test.cpp.i
+
+.PHONY : model_test.i
+
+# target to preprocess a source file
+model_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/model_test.cpp.i
+.PHONY : model_test.cpp.i
+
+model_test.s: model_test.cpp.s
+
+.PHONY : model_test.s
+
+# target to generate assembly for a file
+model_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/model_test.cpp.s
+.PHONY : model_test.cpp.s
+
+role_manager_test.o: role_manager_test.cpp.o
+
+.PHONY : role_manager_test.o
+
+# target to build an object file
+role_manager_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/role_manager_test.cpp.o
+.PHONY : role_manager_test.cpp.o
+
+role_manager_test.i: role_manager_test.cpp.i
+
+.PHONY : role_manager_test.i
+
+# target to preprocess a source file
+role_manager_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/role_manager_test.cpp.i
+.PHONY : role_manager_test.cpp.i
+
+role_manager_test.s: role_manager_test.cpp.s
+
+.PHONY : role_manager_test.s
+
+# target to generate assembly for a file
+role_manager_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/role_manager_test.cpp.s
+.PHONY : role_manager_test.cpp.s
+
+util_test.o: util_test.cpp.o
+
+.PHONY : util_test.o
+
+# target to build an object file
+util_test.cpp.o:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/util_test.cpp.o
+.PHONY : util_test.cpp.o
+
+util_test.i: util_test.cpp.i
+
+.PHONY : util_test.i
+
+# target to preprocess a source file
+util_test.cpp.i:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/util_test.cpp.i
+.PHONY : util_test.cpp.i
+
+util_test.s: util_test.cpp.s
+
+.PHONY : util_test.s
+
+# target to generate assembly for a file
+util_test.cpp.s:
+	cd /Users/GNZ/code/GitRepositories/MyGit/caep/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/caepgtest.dir/build.make test/CMakeFiles/caepgtest.dir/util_test.cpp.s
+.PHONY : util_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,6 +402,29 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... caepgtest"
+	@echo "... adapter_test.o"
+	@echo "... adapter_test.i"
+	@echo "... adapter_test.s"
+	@echo "... caeper_test.o"
+	@echo "... caeper_test.i"
+	@echo "... caeper_test.s"
+	@echo "... config_test.o"
+	@echo "... config_test.i"
+	@echo "... config_test.s"
+	@echo "... matcher_test.o"
+	@echo "... matcher_test.i"
+	@echo "... matcher_test.s"
+	@echo "... model_test.o"
+	@echo "... model_test.i"
+	@echo "... model_test.s"
+	@echo "... role_manager_test.o"
+	@echo "... role_manager_test.i"
+	@echo "... role_manager_test.s"
+	@echo "... util_test.o"
+	@echo "... util_test.i"
+	@echo "... util_test.s"
 .PHONY : help
 
 
