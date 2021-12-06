@@ -3,6 +3,8 @@
 
 namespace caep {
 
+namespace CurrentThread {
+
 extern __thread int t_cached_tid;
 extern __thread char t_tid_string[32];
 extern __thread int t_tid_string_length;
@@ -29,6 +31,7 @@ inline const char* name() {
     return t_thread_name;
 }
 
-}
+} // namespace CurrentThread
+} // namespace caep
 
 #endif

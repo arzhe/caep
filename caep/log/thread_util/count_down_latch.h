@@ -5,41 +5,49 @@
  *                                                                                             *
  *                 Project Name : Caep                                                         *
  *                                                                                             *
- *                    File Name : noncopyable.h                                                *
+ *                    File Name : count_down_latch.h                                           *
  *                                                                                             *
  *                   Programmer : Guan Zhe                                                     *
  *                                                                                             *
  *                   Start Date : Aug 22, 2019                                                 *
  *                                                                                             *
- *                  Last Update : Dec 1, 2021   [ArZr]                                         *
+ *                  Last Update : Dec 3, 2021   [ArZr]                                         *
  *                                                                                             *
  *---------------------------------------------------------------------------------------------*
  * Functions:                                                                                  *
- *   noncopyable::noncopyable -- Constructor for noncopyable.                                  *
- *   noncopyable::~noncopyable -- Destructor for noncopyable.                                  *
- *   noncopyable::noncopyable -- Prohibits copy.                                               *
- *   noncopyable::operator= -- Prohibits assignment.                                           *
+ *   CountDownLatch::CountDownLatch -- Constructor for CountDownLatch.                         *
+ *   CountDownLatch::Wait -- Current Thread blocks in wait queue until condition variable is   *
+ *                   actived and some condition is satisfied.                                  *
+ *   CountDownLatch::CountDown -- Changes the condition and if condition is satisfied, the     *
+ *                   condition variable is actived so that the thread blocked in wait queue can*
+ *                   be actived.                                                               *
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-#ifndef CAEP_NONCOPYABLE_H
-#define CAEP_NONCOPYABLE_H
+#ifndef CAEP_COUNT_DOWN_LATCH_H
+#define CAEP_COUNT_DOWN_LATCH_H
+
+#include "./noncopyable.h"
+#include "./mutex_lock.h"
+#include "./condition.h"
 
 namespace caep {
 
-
 /*
- * @breif Class noncopyable is provided for the class who wanna prohibit
- * copy and assigment, but constructor and destructor continue to function normally.
+ * @breif Class CountDownLatch's main purpose is to ensure that Function passed in Thread is
+ * actually started, and then the outter start is returned.
  */
-class noncopyable {
-protected:
-    noncopyable() {}
-    ~noncopyable() {}
-
+class CountDownLatch : noncopyable {
 private:
-    noncopyable(const noncopyable&);
-    const noncopyable& operator=(const noncopyable&);
+    mutable MutexLock mutex;
+    Condition condition;
+    int count;
+
+public:
+    explicit CountDownLatch(int count);
+    void Wait();
+    void CountDown();
 };
 
-}
+} // namespace caep
+
 #endif
